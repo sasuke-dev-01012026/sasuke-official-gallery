@@ -15,16 +15,16 @@ export const GALLERY = [
     ],
   },
   {
-  id: 2,
-  label: 'Roronoa Zoro',
-  series: 'One Piece',
-  category: 'one-piece',
-  imgs: [
-    './assets/images/gallery/one_piece/roronoa_zoro/01.png',
-    './assets/images/gallery/one_piece/roronoa_zoro/02.png',
-    './assets/images/gallery/one_piece/roronoa_zoro/03.png',
-  ],
-},
+    id: 2,
+    label: 'Roronoa Zoro',
+    series: 'One Piece',
+    category: 'one-piece',
+    imgs: [
+      './assets/images/gallery/one_piece/roronoa_zoro/01.png',
+      './assets/images/gallery/one_piece/roronoa_zoro/02.png',
+      './assets/images/gallery/one_piece/roronoa_zoro/03.png',
+    ],
+  },
   {
     id: 3,
     label: 'Nami',
