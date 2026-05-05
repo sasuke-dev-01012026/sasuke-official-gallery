@@ -9,9 +9,9 @@ export const GALLERY = [
     series: 'One Piece',
     category: 'one-piece',
     imgs: [
-      './assets/images/gallery/one_piece/01.jpg',
-      './assets/images/gallery/one_piece/02.jpg',
-      './assets/images/gallery/one_piece/03.jpg',
+      './assets/images/gallery/one_piece/monkey_d_luffy/01.png',
+      './assets/images/gallery/one_piece/monkey_d_luffy/02.png',
+      './assets/images/gallery/one_piece/monkey_d_luffy/03.png',
     ],
   },
   {
@@ -20,7 +20,8 @@ export const GALLERY = [
     series: 'One Piece',
     category: 'one-piece',
     imgs: [
-      './assets/images/gallery/one_piece/04.png',
+      './assets/images/gallery/one_piece/roronoa_zoro/01.png',
+      './assets/images/gallery/one_piece/roronoa_zoro/02.png',
     ],
   },
   {
@@ -29,21 +30,76 @@ export const GALLERY = [
     series: 'One Piece',
     category: 'one-piece',
     imgs: [
-      './assets/images/gallery/one_piece/05.png',
+      './assets/images/gallery/one_piece/nami/01.png',
     ],
   },
   {
     id: 4,
-    label: 'Sanji',
+    label: 'Usopp',
     series: 'One Piece',
     category: 'one-piece',
     imgs: [
-      './assets/images/gallery/one_piece/06.png',
+      './assets/images/gallery/one_piece/usopp/01.png',
     ],
   },
-  // NARUTO
   {
     id: 5,
+    label: 'Vinsmoke Sanji',
+    series: 'One Piece',
+    category: 'one-piece',
+    imgs: [
+      './assets/images/gallery/one_piece/vinsmoke_sanji/01.png',
+    ],
+  },
+  {
+    id: 6,
+    label: 'Tony Tony Chopper',
+    series: 'One Piece',
+    category: 'one-piece',
+    imgs: [
+      './assets/images/gallery/one_piece/tony_tony_chopper/01.png',
+    ],
+  },
+  {
+    id: 7,
+    label: 'Nico Robin',
+    series: 'One Piece',
+    category: 'one-piece',
+    imgs: [
+      './assets/images/gallery/one_piece/nico_robin/01.png',
+    ],
+  },
+  {
+    id: 8,
+    label: 'Franky',
+    series: 'One Piece',
+    category: 'one-piece',
+    imgs: [
+      './assets/images/gallery/one_piece/franky/01.png',
+    ],
+  },
+  {
+    id: 9,
+    label: 'Brook',
+    series: 'One Piece',
+    category: 'one-piece',
+    imgs: [
+      './assets/images/gallery/one_piece/brook/01.png',
+    ],
+  },
+  {
+    id: 10,
+    label: 'Jinbe',
+    series: 'One Piece',
+    category: 'one-piece',
+    imgs: [
+      './assets/images/gallery/one_piece/jinbe/01.png',
+    ],
+  },
+
+  // NARUTO
+  {
+    id: 11,
     label: 'Uzumaki Naruto',
     series: 'Naruto',
     category: 'naruto',
@@ -53,9 +109,10 @@ export const GALLERY = [
       './assets/images/gallery/naruto/03.jpg',
     ],
   },
-  // DRAGONBALL
+
+  // DRAGON BALL
   {
-    id: 6,
+    id: 12,
     label: 'Son Goku',
     series: 'Dragon Ball',
     category: 'dragonball',
@@ -65,9 +122,10 @@ export const GALLERY = [
       './assets/images/gallery/dragonball/03.png',
     ],
   },
+
   // BLEACH
   {
-    id: 7,
+    id: 13,
     label: 'Kurosaki Ichigo',
     series: 'Bleach',
     category: 'bleach',
@@ -77,9 +135,10 @@ export const GALLERY = [
       './assets/images/gallery/bleach/03.png',
     ],
   },
+
   // FAIRY TAIL
   {
-    id: 8,
+    id: 14,
     label: 'Natsu Dragneel',
     series: 'Fairy Tail',
     category: 'fairy-tail',
@@ -89,9 +148,10 @@ export const GALLERY = [
       './assets/images/gallery/fairy_tail/03.png',
     ],
   },
+
   // OTHER
   {
-    id: 9,
+    id: 15,
     label: 'Kamado Tanjiro',
     series: 'Demon Slayer: Kimetsu no Yaiba',
     category: 'other',
@@ -100,7 +160,7 @@ export const GALLERY = [
     ],
   },
   {
-    id: 10,
+    id: 16,
     label: 'Itadori Yuji',
     series: 'Jujutsu Kaisen',
     category: 'other',
@@ -109,7 +169,7 @@ export const GALLERY = [
     ],
   },
   {
-    id: 11,
+    id: 17,
     label: 'Eren Yeager',
     series: 'Attack on Titan',
     category: 'other',
@@ -119,14 +179,14 @@ export const GALLERY = [
   },
 ];
 
+// ─── FALLBACK ────────────────────────────────────────────
+
 export const FALLBACK_GALLERY = (id) =>
   `https://api.dicebear.com/7.x/shapes/svg?seed=anime${id}&backgroundColor=1a1a2e,16213e,0f3460&size=600`;
 
-// ─── HELPER ───────────────────────────────────────────────────
+// ─── HELPER ────────────────────────────────────────────
 
-/** Selalu kembalikan array gambar, meski hanya 1 gambar */
 export const getImgs = (id) =>
   GALLERY.find(i => i.id === id)?.imgs ?? [];
 
-/** Ambil gambar pertama (thumbnail / cover) */
 export const getCoverImg = (id) => getImgs(id)[0];
