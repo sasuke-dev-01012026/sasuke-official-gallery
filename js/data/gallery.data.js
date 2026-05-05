@@ -22,6 +22,8 @@ export const GALLERY = [
     imgs: [
       './assets/images/gallery/one_piece/roronoa_zoro/01.png',
       './assets/images/gallery/one_piece/roronoa_zoro/02.png',
+      './assets/images/gallery/one_piece/roronoa_zoro/03.png',
+    ]
     ],
   },
   {
