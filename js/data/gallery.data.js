@@ -32,6 +32,8 @@ export const GALLERY = [
     category: 'one-piece',
     imgs: [
       './assets/images/gallery/one_piece/nami/01.png',
+      './assets/images/gallery/one_piece/nami/02.png',
+      './assets/images/gallery/one_piece/nami/03.png',
     ],
   },
   {
