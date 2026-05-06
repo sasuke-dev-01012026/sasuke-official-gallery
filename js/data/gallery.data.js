@@ -110,10 +110,24 @@ export const GALLERY = [
       './assets/images/gallery/naruto/03.jpg',
     ],
   },
+  {
+    id: 12,
+    label: 'Uchiha Sasuke',
+    series: 'Naruto',
+    category: 'naruto',
+    imgs: [
+      './assets/images/gallery/naruto/sasuke/01.png',
+      './assets/images/gallery/naruto/sasuke/02.png',
+      './assets/images/gallery/naruto/sasuke/03.png',
+      './assets/images/gallery/naruto/sasuke/04.png',
+      './assets/images/gallery/naruto/sasuke/05.png',
+      './assets/images/gallery/naruto/sasuke/06.png',
+    ],
+  },
 
   // DRAGON BALL
   {
-    id: 12,
+    id: 13,
     label: 'Son Goku',
     series: 'Dragon Ball',
     category: 'dragonball',
@@ -126,7 +140,7 @@ export const GALLERY = [
 
   // BLEACH
   {
-    id: 13,
+    id: 14,
     label: 'Kurosaki Ichigo',
     series: 'Bleach',
     category: 'bleach',
@@ -139,7 +153,7 @@ export const GALLERY = [
 
   // FAIRY TAIL
   {
-    id: 14,
+    id: 15,
     label: 'Natsu Dragneel',
     series: 'Fairy Tail',
     category: 'fairy-tail',
@@ -152,7 +166,7 @@ export const GALLERY = [
 
   // OTHER
   {
-    id: 15,
+    id: 16,
     label: 'Kamado Tanjiro',
     series: 'Demon Slayer: Kimetsu no Yaiba',
     category: 'other',
@@ -161,7 +175,7 @@ export const GALLERY = [
     ],
   },
   {
-    id: 16,
+    id: 17,
     label: 'Itadori Yuji',
     series: 'Jujutsu Kaisen',
     category: 'other',
@@ -170,7 +184,7 @@ export const GALLERY = [
     ],
   },
   {
-    id: 17,
+    id: 18,
     label: 'Eren Yeager',
     series: 'Attack on Titan',
     category: 'other',
