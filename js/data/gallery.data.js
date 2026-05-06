@@ -116,12 +116,12 @@ export const GALLERY = [
     series: 'Naruto',
     category: 'naruto',
     imgs: [
-      './assets/images/gallery/naruto/sasuke/01.png',
-      './assets/images/gallery/naruto/sasuke/02.png',
-      './assets/images/gallery/naruto/sasuke/03.png',
-      './assets/images/gallery/naruto/sasuke/04.png',
-      './assets/images/gallery/naruto/sasuke/05.png',
-      './assets/images/gallery/naruto/sasuke/06.png',
+      './assets/images/gallery/naruto/uchiha_sasuke/01.png',
+      './assets/images/gallery/naruto/uchiha_sasuke/02.png',
+      './assets/images/gallery/naruto/uchiha_sasuke/03.png',
+      './assets/images/gallery/naruto/uchiha_sasuke/04.png',
+      './assets/images/gallery/naruto/uchiha_sasuke/05.png',
+      './assets/images/gallery/naruto/uchiha_sasuke/06.png',
     ],
   },
 
