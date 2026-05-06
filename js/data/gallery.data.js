@@ -43,6 +43,8 @@ export const GALLERY = [
     category: 'one-piece',
     imgs: [
       './assets/images/gallery/one_piece/usopp/01.png',
+      './assets/images/gallery/one_piece/usopp/02.png',
+      './assets/images/gallery/one_piece/usopp/03.png',
     ],
   },
   {
@@ -52,6 +54,8 @@ export const GALLERY = [
     category: 'one-piece',
     imgs: [
       './assets/images/gallery/one_piece/vinsmoke_sanji/01.png',
+      './assets/images/gallery/one_piece/vinsmoke_sanji/02.png',
+      './assets/images/gallery/one_piece/vinsmoke_sanji/03.png',
     ],
   },
   {
@@ -61,6 +65,8 @@ export const GALLERY = [
     category: 'one-piece',
     imgs: [
       './assets/images/gallery/one_piece/tony_tony_chopper/01.png',
+      './assets/images/gallery/one_piece/tony_tony_chopper/02.png',
+      './assets/images/gallery/one_piece/tony_tony_chopper/03.png',
     ],
   },
   {
@@ -70,6 +76,8 @@ export const GALLERY = [
     category: 'one-piece',
     imgs: [
       './assets/images/gallery/one_piece/nico_robin/01.png',
+      './assets/images/gallery/one_piece/nico_robin/02.png',
+      './assets/images/gallery/one_piece/nico_robin/03.png',
     ],
   },
   {
@@ -79,6 +87,8 @@ export const GALLERY = [
     category: 'one-piece',
     imgs: [
       './assets/images/gallery/one_piece/franky/01.png',
+      './assets/images/gallery/one_piece/franky/02.png',
+      './assets/images/gallery/one_piece/franky/03.png',
     ],
   },
   {
@@ -88,6 +98,8 @@ export const GALLERY = [
     category: 'one-piece',
     imgs: [
       './assets/images/gallery/one_piece/brook/01.png',
+      './assets/images/gallery/one_piece/brook/02.png',
+      './assets/images/gallery/one_piece/brook/03.png',
     ],
   },
   {
@@ -97,6 +109,8 @@ export const GALLERY = [
     category: 'one-piece',
     imgs: [
       './assets/images/gallery/one_piece/jinbe/01.png',
+      './assets/images/gallery/one_piece/jinbe/02.png',
+      './assets/images/gallery/one_piece/jinbe/03.png',
     ],
   },
 
@@ -121,9 +135,6 @@ export const GALLERY = [
       './assets/images/gallery/naruto/uchiha_sasuke/01.png',
       './assets/images/gallery/naruto/uchiha_sasuke/02.png',
       './assets/images/gallery/naruto/uchiha_sasuke/03.png',
-      './assets/images/gallery/naruto/uchiha_sasuke/04.png',
-      './assets/images/gallery/naruto/uchiha_sasuke/05.png',
-      './assets/images/gallery/naruto/uchiha_sasuke/06.png',
     ],
   },
   {
@@ -185,6 +196,8 @@ export const GALLERY = [
     category: 'other',
     imgs: [
       './assets/images/gallery/other/demon_slayer/01.png',
+      './assets/images/gallery/other/demon_slayer/02.png',
+      './assets/images/gallery/other/demon_slayer/03.png',
     ],
   },
   {
@@ -194,15 +207,30 @@ export const GALLERY = [
     category: 'other',
     imgs: [
       './assets/images/gallery/other/jujutsu_kaisen/01.png',
+      './assets/images/gallery/other/jujutsu_kaisen/02.png',
+      './assets/images/gallery/other/jujutsu_kaisen/03.png',
     ],
   },
   {
     id: 19,
+    label: 'Gojo Satoru',
+    series: 'Jujutsu Kaisen',
+    category: 'other',
+    imgs: [
+      './assets/images/gallery/other/jujutsu_kaisen/gojo_satoru/01.png',
+      './assets/images/gallery/other/jujutsu_kaisen/gojo_satoru/02.png',
+      './assets/images/gallery/other/jujutsu_kaisen/gojo_satoru/03.png',
+    ],
+  },
+  {
+    id: 20,
     label: 'Eren Yeager',
     series: 'Attack on Titan',
     category: 'other',
     imgs: [
       './assets/images/gallery/other/attack_on_titan/01.png',
+      './assets/images/gallery/other/attack_on_titan/02.png',
+      './assets/images/gallery/other/attack_on_titan/03.png',
     ],
   },
 ];
