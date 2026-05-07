@@ -12,6 +12,9 @@ export const GALLERY = [
       './assets/images/gallery/one_piece/monkey_d_luffy/01.png',
       './assets/images/gallery/one_piece/monkey_d_luffy/02.png',
       './assets/images/gallery/one_piece/monkey_d_luffy/03.png',
+      './assets/images/gallery/one_piece/monkey_d_luffy/04.png',
+      './assets/images/gallery/one_piece/monkey_d_luffy/05.png',
+      './assets/images/gallery/one_piece/monkey_d_luffy/06.png',
     ],
   },
   {
