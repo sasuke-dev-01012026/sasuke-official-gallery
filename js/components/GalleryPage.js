@@ -1,7 +1,7 @@
 // js/components/GalleryPage.js
 import { GALLERY, FALLBACK_GALLERY, getCoverImg, getImgs } from '../data/gallery.data.js';
 
-const PER_PAGE = 12;
+const PER_PAGE = 18;
 
 const ANIME_FILTERS = [
   { key: 'all',        label: 'All'        },
