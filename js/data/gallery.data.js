@@ -125,9 +125,9 @@ export const GALLERY = [
     series: 'Naruto',
     category: 'naruto',
     imgs: [
-      './assets/images/gallery/naruto/01.jpg',
-      './assets/images/gallery/naruto/02.jpg',
-      './assets/images/gallery/naruto/03.jpg',
+      './assets/images/gallery/naruto/01.png',
+      './assets/images/gallery/naruto/02.png',
+      './assets/images/gallery/naruto/03.png',
     ],
   },
   {
