@@ -445,7 +445,7 @@ main {
   border-radius: 3px;
   background: var(--card);
   cursor: pointer;
-  aspect-ratio: 9/16;
+  aspect-ratio: 9/18; /* ← diubah dari 9/16 */
   opacity: 0;
   transform: translateY(20px);
   animation: itemIn 0.5s cubic-bezier(0.4, 0, 0.2, 1) forwards;
@@ -709,7 +709,6 @@ main {
   overflow-x: auto;
   flex-wrap: nowrap;
   justify-content: flex-start;
-  /* ← ganti dari center */
   padding-bottom: 4px;
   -ms-overflow-style: none;
   scrollbar-width: none;
@@ -723,7 +722,6 @@ main {
 .shop-cat-filters .filter-btn {
   flex-shrink: 0;
   white-space: nowrap;
-  /* ❗ biar teks gak turun */
 }
 
 /* ===========================
@@ -1191,7 +1189,7 @@ footer {
    SKELETON LOADING
 =========================== */
 .skeleton-item {
-  aspect-ratio: 9/16;
+  aspect-ratio: 9/18; /* ← diubah dari 9/16 */
   border-radius: 3px;
   background: var(--card);
   overflow: hidden;
@@ -1390,5 +1388,3 @@ footer {
     padding: 16px 14px;
   }
 }
-
-
