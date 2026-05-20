@@ -200,8 +200,6 @@ export const GALLERY = [
     category: 'other',
     imgs: [
       './assets/images/gallery/other/demon_slayer/01.png',
-      './assets/images/gallery/other/demon_slayer/02.png',
-      './assets/images/gallery/other/demon_slayer/03.png',
     ],
   },
   {
@@ -211,30 +209,78 @@ export const GALLERY = [
     category: 'other',
     imgs: [
       './assets/images/gallery/other/jujutsu_kaisen/01.png',
-      './assets/images/gallery/other/jujutsu_kaisen/02.png',
-      './assets/images/gallery/other/jujutsu_kaisen/03.png',
     ],
   },
   {
     id: 19,
-    label: 'Gojo Satoru',
-    series: 'Jujutsu Kaisen',
-    category: 'other',
-    imgs: [
-      './assets/images/gallery/other/jujutsu_kaisen/gojo_satoru/01.png',
-      './assets/images/gallery/other/jujutsu_kaisen/gojo_satoru/02.png',
-      './assets/images/gallery/other/jujutsu_kaisen/gojo_satoru/03.png',
-    ],
-  },
-  {
-    id: 20,
     label: 'Eren Yeager',
     series: 'Attack on Titan',
     category: 'other',
     imgs: [
       './assets/images/gallery/other/attack_on_titan/01.png',
-      './assets/images/gallery/other/attack_on_titan/02.png',
-      './assets/images/gallery/other/attack_on_titan/03.png',
+    ],
+  },
+  {
+    id: 20,
+    label: 'Takemichi Hanagaki',
+    series: 'Tokyo Revengers',
+    category: 'other',
+    imgs: [
+      './assets/images/gallery/other/tokyo_revengers/01.png',
+    ],
+  },
+  {
+    id: 21,
+    label: 'Sung Jinwoo',
+    series: 'Solo Leveling',
+    category: 'other',
+    imgs: [
+      './assets/images/gallery/other/solo_leveling/01.png',
+    ],
+  },
+  {
+    id: 22,
+    label: 'Izuku Midoriya',
+    series: 'My Hero Academia',
+    category: 'other',
+    imgs: [
+      './assets/images/gallery/other/my_hero_academia/01.png',
+    ],
+  },
+  {
+    id: 23,
+    label: 'Light Yagami',
+    series: 'Death Note',
+    category: 'other',
+    imgs: [
+      './assets/images/gallery/other/death_note/01.png',
+    ],
+  },
+  {
+    id: 24,
+    label: 'Gintoki Sakata',
+    series: 'Gintama',
+    category: 'other',
+    imgs: [
+      './assets/images/gallery/other/gintama/01.png',
+    ],
+  },
+  {
+    id: 25,
+    label: 'Asta',
+    series: 'Black Clover',
+    category: 'other',
+    imgs: [
+      './assets/images/gallery/other/black_clover/01.png',
+    ],
+  },
+  {
+    id: 26,
+    label: 'Ken Kaneki',
+    series: 'Tokyo Ghoul',
+    category: 'other',
+    imgs: [
+      './assets/images/gallery/other/tokyo_ghoul/01.png',
     ],
   },
 ];
