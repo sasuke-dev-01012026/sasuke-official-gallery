@@ -1,5 +1,4 @@
 // js/data/gallery.data.js
-
 // ─── DATA: GALLERY ────────────────────────────────────────────
 
 export const GALLERY = [
