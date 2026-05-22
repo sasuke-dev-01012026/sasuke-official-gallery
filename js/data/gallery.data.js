@@ -234,7 +234,7 @@ export const GALLERY = [
     series: 'Solo Leveling',
     category: 'other',
     imgs: [
-      './assets/images/gallery/other/solo_leveling/01.png',
+      './assets/images/gallery/other/solo_laveling/01.png',
     ],
   },
   {
