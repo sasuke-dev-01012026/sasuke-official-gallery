@@ -8,9 +8,6 @@ const ANIME_FILTERS = [
   { key: 'one-piece',  label: 'One Piece'  },
   { key: 'naruto',     label: 'Naruto'     },
   { key: 'dragonball', label: 'Dragonball' },
-  { key: 'bleach',     label: 'Bleach'     },
-  { key: 'fairy-tail', label: 'Fairy Tail' },
-  { key: 'other',      label: 'Other'      },
 ];
 
 const ICON_BACK = `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
