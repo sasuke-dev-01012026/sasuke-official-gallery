@@ -188,10 +188,6 @@ export class GalleryPage {
     backBtn.innerHTML      = ICON_BACK;
     track.appendChild(backBtn);
 
-    const divider = document.createElement('span');
-    divider.className = 'filter-divider';
-    track.appendChild(divider);
-
     const allBtn = document.createElement('button');
     allBtn.className      = 'filter-btn' + (this.#selectedChar === 'all' ? ' active' : '');
     allBtn.dataset.action = 'char';
