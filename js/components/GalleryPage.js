@@ -193,7 +193,7 @@ export class GalleryPage {
     track.appendChild(divider);
 
     const allBtn = document.createElement('button');
-    allBtn.className      = 'filter-btn filter-btn--sm' + (this.#selectedChar === 'all' ? ' active' : '');
+    allBtn.className      = 'filter-btn' + (this.#selectedChar === 'all' ? ' active' : '');
     allBtn.dataset.action = 'char';
     allBtn.dataset.char   = 'all';
     allBtn.textContent    = 'All';
@@ -201,7 +201,7 @@ export class GalleryPage {
 
     GALLERY.filter(i => i.category === this.#selectedAnime).forEach(({ id, label }) => {
       const btn = document.createElement('button');
-      btn.className      = 'filter-btn filter-btn--sm' + (String(id) === this.#selectedChar ? ' active' : '');
+      btn.className      = 'filter-btn' + (String(id) === this.#selectedChar ? ' active' : '');
       btn.dataset.action = 'char';
       btn.dataset.char   = String(id);
       btn.textContent    = label;
