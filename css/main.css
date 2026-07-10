@@ -363,7 +363,8 @@ main {
   font-size: 10px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  padding: 7px 20px;
+  height: 32px;
+  padding: 0 20px;
   border: 1px solid var(--border);
   background: transparent;
   color: var(--text-muted);
@@ -371,6 +372,9 @@ main {
   transition: border-color 0.22s ease, color 0.22s ease, background 0.22s ease;
   white-space: nowrap;
   flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .filter-btn:hover {
@@ -393,11 +397,14 @@ main {
 
 /* ─── Tombol Back — sekarang disamakan ukurannya dengan tombol filter lain ─── */
 .filter-btn--back {
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border-radius: 50%;
   flex-shrink: 0;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 6px;
   border-color: var(--border-hover);
 }
 
