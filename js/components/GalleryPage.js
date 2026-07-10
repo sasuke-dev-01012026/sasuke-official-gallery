@@ -185,7 +185,7 @@ export class GalleryPage {
     backBtn.className      = 'filter-btn filter-btn--back';
     backBtn.dataset.action = 'back';
     backBtn.setAttribute('aria-label', 'Kembali ke daftar anime');
-    backBtn.innerHTML      = ICON_BACK + '<span>Kembali</span>';
+    backBtn.innerHTML      = ICON_BACK;
     track.appendChild(backBtn);
 
     const allBtn = document.createElement('button');
