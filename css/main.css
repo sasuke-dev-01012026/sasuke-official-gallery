@@ -391,20 +391,14 @@ main {
   letter-spacing: 0.16em;
 }
 
-/* ─── Tombol Back — icon only, bulat ─── */
+/* ─── Tombol Back — sekarang disamakan ukurannya dengan tombol filter lain ─── */
 .filter-btn--back {
-  width: 34px;
-  height: 34px;
-  padding: 0;
   flex-shrink: 0;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  border-radius: 50%;
-  border: 1px solid var(--border-hover);
-  color: var(--text-muted);
-  background: transparent;
-  transition: border-color 0.22s ease, color 0.22s ease, background 0.22s ease;
+  gap: 6px;
+  border-color: var(--border-hover);
 }
 
 .filter-btn--back:hover {
@@ -644,7 +638,7 @@ main {
   font-size: 13px;
   font-weight: 400;
   color: var(--text);
-  letter-spacing: 0.01em;
+  letter-spacing: 0.02em;
   margin-bottom: 12px;
   display: block;
 }
